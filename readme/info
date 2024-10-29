@@ -1,0 +1,5 @@
+Explicación del Código
+Mostrar Productos: Al cargar los productos de productos.json, los mostramos en la tienda con sus precios.
+Agregar al Carrito: Cuando el usuario hace clic en “Añadir al carrito”, se agrega el producto seleccionado al carrito y se muestra un mensaje de confirmación.
+Actualizar Carrito: Se genera una lista de productos en el carrito y se calcula el total.
+Pagar: Al hacer clic en "Pagar", se muestra un resumen de la compra con los productos y el total a pagar, y si el usuario confirma, se vacía el carrito.

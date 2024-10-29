@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Valentina Store</h1>
+        <div id="productos" class="row"></div>
+    </div>
+
+    
+        
+       <!-- Carrito de Compras -->
+    <div id="carrito-container" class="text-right mb-4" >
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito" class="list-group" style="display: inline-block;"></ul>
+        <h3>Total: $<span id="total">0</span></h3>
+        <button class="btn btn-success" onclick="pagar()">Pagar</button>
+    </div>
+    
+    
+
+    
+   
+
+    <script src="./js/funciones.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
